@@ -23,7 +23,7 @@ class English:
     gaveUp = "You gave up, the word was "
     quit = 'quit'
     finalGuessQuest = 'Take your final guess: '
-    wordSet = ["cat"]
+    wordSet = ("cat","dog","bag","leaf","cup")
 
 class Polish:
     allLetters = "Odgadłeś słowo "
@@ -42,7 +42,7 @@ class Polish:
     gaveUp = "Koniec gry. Odgadywane słowo to "
     quit = 'koniec'
     finalGuessQuest = 'Podejmij ostatnią próbę odgadnięcia słowa: '
-    wordSet = ("dom","droga","kajak","kot","pies")
+    wordSet = ("dom","hak","sowa","kot","pies")
 
 class HangmanE(English):
 
